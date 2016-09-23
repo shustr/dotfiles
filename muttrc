@@ -1,3 +1,10 @@
+# This is configuration for single Gmail account
+# change "YOUR_GMAIL_ADDRESS" with your address appearing as address@gmail.com
+# Also create following files:
+#  ~/.mutt/cache/headers
+#  ~/.mutt/cache/bodies
+#  ~/.mutt/certificates
+#
 set ssl_starttls=yes
 set ssl_force_tls=yes
 set imap_user = "YOUR_GMAIL_ADDRESS"
