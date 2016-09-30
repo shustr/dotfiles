@@ -27,12 +27,9 @@ set sort_aux = last-date-received
 set sort = threads
 set sort_re
 
-#test below
 set pager_index_lines = 10
-#set pager_context = 5
-#set pager_stop
-#set menu_scroll
-#set smart_wrap
-#set tilde
-#unset markers
+
+# To use encrypted key for authentication instead of plain text passwords, comment/remove "set imap_pass" and "set smtp_pass"
+# and uncomment the following string (NOTE, you have to change path to your *.gpg file accordingly):
+# source "gpg -d ~/.mutt/KEYFILE.gpg |" 
 
