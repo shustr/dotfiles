@@ -1,0 +1,38 @@
+# Mutt setup for multiple email accounts
+#
+# Files and directories of your ~/.mutt folder would be as following:
+# You can name folder "accountX" whatever you want, just keep in mind it should be changed 
+# in configuration files wherever it's mentioned.
+# Same applies to "acc.conf".
+#
+# Encrypted file to access mailbox (recommended to use rather than plain authentication) is located in account's folder.
+# It is *.gpg file (password.gpg in this example)  and should be prepared separately using gpg.
+# 
+#~/.mutt/
+#   ├── account1
+#   │   ├── acc.conf
+#   │   ├── cache
+#   │   │   ├── bodies
+#   │   │   └── headers
+#   │   └── certificates
+#   ├── account2
+#   │   ├── acc.conf
+#   │   ├── cache
+#   │   │   ├── bodies
+#   │   │   └── headers
+#   │   ├── certificates
+#   │   └── password.gpg
+#   ├── account3
+#   │   ├── acc.conf
+#   │   ├── cache
+#   │   │   ├── bodies
+#   │   │   └── headers
+#   │   └── certificates
+#   ├── account4
+#   │   ├── acc.conf
+#   │   ├── cache
+#   │   │   ├── bodies
+#   │   │   └── headers
+#   │   └── certificates
+#   └── muttrc
+
