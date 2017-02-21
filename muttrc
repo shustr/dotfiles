@@ -5,6 +5,7 @@
 #  ~/.mutt/cache/bodies
 #  ~/.mutt/certificates/
 #
+#
 set ssl_starttls=yes
 set ssl_force_tls=yes
 set imap_user = "YOUR_GMAIL_ADDRESS"
